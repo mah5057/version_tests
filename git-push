@@ -26,7 +26,7 @@ def prompt(question):
 
 def main():
     parser = \
-        argparse.ArgumentParser(description='update carbon-io docs submodules')
+        argparse.ArgumentParser(description='Check that commits are error free with respect to tags and package.json versions')
     
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='log debug output')
