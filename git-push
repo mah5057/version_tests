@@ -58,7 +58,7 @@ def main():
         
         if prompt("Would you like to push this change?"):
             git_commit_command = "git commit -am \"%s\"" % opts.message
-            git_tag_command = "git tag -a %s -m %s" % (opts.version, opts.version)
+            git_tag_command = "git tag -a v%s -m v%s" % (opts.version, opts.version)
             git_push_command = "git push --tags origin master"
 
             print("Issuing git command: %s" % (git_commit_command))
