@@ -1,6 +1,6 @@
 {
     "name": "version_test", 
-    "version": "0.0.4", 
+    "version": "0.0.5", 
     "description": "Version test module", 
     "contributors": [
         "Matt Hardock <mah5057@gmail.com>"
