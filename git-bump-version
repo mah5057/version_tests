@@ -62,7 +62,7 @@ def main():
         with open('package.json', 'r') as f:
             print(json.dumps(package_json, indent=4, sort_keys=False))
        
-        print("!!! Changing version from %s to %s !!!")
+        print("!!! Changing version from %s to %s !!!" % (version, new_tag))
         if prompt("Would you like to push this change?"):
             git_commit_command = "git commit -am \"Bump version\""
             git_tag_command = "git tag -a v%s -m v%s" % (new_tag, new_tag)
