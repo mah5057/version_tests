@@ -56,7 +56,7 @@ def main():
             new_tag = semver.bump_major(version)
 
         with open('package.json', 'w') as f:
-            package_json['version'] = opts.version
+            package_json['version'] = new_tag
             json.dump(package_json, f, indent=4, sort_keys=False)
         
         with open('package.json', 'r') as f:
