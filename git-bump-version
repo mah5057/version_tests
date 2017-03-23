@@ -17,7 +17,9 @@ import logging
 import sys
 
 def prompt(question):
-    reply = str(raw_input(question + ' (y/n): ')).lower().strip()
+    reply = str(raw_input(question + ' (y/N): ')).lower().strip()
+    if reply == '':
+        return False
     if reply[0] == 'y':
         return True
     if reply[0] == 'n':
