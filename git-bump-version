@@ -56,7 +56,7 @@ def main():
             new_tag = semver.bump_major(version)
 
         package_json['version'] = new_tag
-        print(json.dump(package_json, f, indent=4, sort_keys=False))
+        print(json.dumps(package_json, f, indent=4, sort_keys=False))
         
         print("!!! Changing version from %s to %s !!!" % (version, new_tag))
         if prompt("Would you like to push this change?"):
