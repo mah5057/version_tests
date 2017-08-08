@@ -33,6 +33,14 @@ Properties
        b
 
 
+    .. attribute:: c
+
+       :type: string
+       :required:
+
+       c
+
+
 Methods
 -------
 
