@@ -1,0 +1,1 @@
+symlink: ln -s ../../.git-cmds/pre-commit .git/hooks/pre-commit
