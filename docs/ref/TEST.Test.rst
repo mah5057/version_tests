@@ -1,18 +1,18 @@
-.. class:: TESTTEST.Test
+.. class:: TEST.Test
     :heading:
 
 .. |br| raw:: html
 
    <br />
 
-=============
-TESTTEST.Test
-=============
+=========
+TEST.Test
+=========
 
 Properties
 ----------
 
-.. class:: TESTTEST.Test
+.. class:: TEST.Test
     :noindex:
     :hidden:
 
@@ -33,18 +33,10 @@ Properties
        b
 
 
-    .. attribute:: c
-
-       :type: string
-       :required:
-
-       c
-
-
 Methods
 -------
 
-.. class:: TESTTEST.Test
+.. class:: TEST.Test
     :noindex:
     :hidden:
 
