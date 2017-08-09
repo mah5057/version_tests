@@ -1,11 +1,11 @@
-.. _TEST-module-ref:
+.. _TESTTEST-module-ref:
 
 ===================
-TEST module reference
+TESTTEST module reference
 ===================
 
 .. toctree::
     :maxdepth: 1
     :titlesonly:
 
-    TEST.Test.rst
+    TESTTEST.Test.rst

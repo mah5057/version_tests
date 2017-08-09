@@ -1,18 +1,18 @@
-.. class:: TEST.Test
+.. class:: TESTTEST.Test
     :heading:
 
 .. |br| raw:: html
 
    <br />
 
-=========
-TEST.Test
-=========
+=============
+TESTTEST.Test
+=============
 
 Properties
 ----------
 
-.. class:: TEST.Test
+.. class:: TESTTEST.Test
     :noindex:
     :hidden:
 
@@ -44,12 +44,13 @@ Properties
 Methods
 -------
 
-.. class:: TEST.Test
+.. class:: TESTTEST.Test
     :noindex:
     :hidden:
 
     .. function:: func1()
 
         :throws exception: description of exception
+        :rtype: undefined
 
         Test function
